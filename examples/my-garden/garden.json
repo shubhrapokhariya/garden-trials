@@ -1,0 +1,227 @@
+{
+  "plants": {
+    "Petunia (maroon)": {
+      "observations": [
+        {
+          "date": "2026-10-07",
+          "kind": "observation",
+          "text": "2 open flowers, 1 spent and crumpled. 4 buds: 2 bigger ones, dark and twisted, nearly ready to open, 1 small and 1 very small. Lots of tiny buds forming too. Photo taken from the front, a bit above.",
+          "structured": {
+            "noticed": [
+              "2 open flowers, 1 spent and crumpled. 4 buds: 2 bigger ones, dark and twisted, nearly ready to open, 1 small and 1 very small. Lots of tiny buds forming too. Photo taken from the front, a bit above."
+            ],
+            "conditions": [],
+            "comparison": "",
+            "parsed_by": "fallback",
+            "fallback_reason": "Gemma's reading dropped a number from your note",
+            "fallback_code": "dropped_number",
+            "uncaptured": [],
+            "removed_unsupported": [],
+            "plant": "Petunia (maroon)",
+            "cause": "unknown"
+          },
+          "logged_on": "2026-10-10"
+        },
+        {
+          "date": "2026-10-10",
+          "kind": "follow-up",
+          "text": "Looked at it on 10 Oct. 4 open flowers, 2 bright ones at the top and 2 darker ones lower down that have just opened. There are small buds at the tips of the shoots, still small, so yes, the shoots have buds. Photo taken from above in bright sun, so the red looks brighter than it is.",
+          "question": "Count the open flowers and the buds right now. Do the newest shoots have buds?",
+          "question_source": "guard",
+          "logged_on": "2026-10-10"
+        }
+      ],
+      "pending": null,
+      "ready_for_trial": true,
+      "trials": [
+        {
+          "question": "How does this plant change on its own over a few days?",
+          "hypothesis": "No change made",
+          "change": "Nothing (observe only)",
+          "keep_same": "everything",
+          "comparison": "none",
+          "measure": "open flowers",
+          "measure2": "buds",
+          "duration_days": 3,
+          "start": "2026-10-10",
+          "status": "done",
+          "records": [
+            {
+              "date": "2026-10-07",
+              "changed": 2,
+              "control": 0,
+              "logged_on": "2026-10-10",
+              "changed2": 4,
+              "control2": 0,
+              "note": "Photo from the front, a bit above. 1 spent flower at the back not counted.",
+              "photo": "photos/petunia-maroon-2026-10-07-1.jpg"
+            },
+            {
+              "date": "2026-10-08",
+              "changed": 2,
+              "control": 0,
+              "logged_on": "2026-10-10",
+              "changed2": 4,
+              "control2": 0,
+              "note": "Removed the spent flower today. Photo from above, a different angle than 7 Oct. Counts are the same as the day before.",
+              "photo": "photos/petunia-maroon-2026-10-08-1.jpg"
+            },
+            {
+              "date": "2026-10-09",
+              "changed": 2,
+              "control": 0,
+              "logged_on": "2026-10-10",
+              "changed2": 4,
+              "control2": 0,
+              "note": "Photo from above. The buds look clearly bigger and longer than on earlier days. Counts are unchanged.",
+              "photo": "photos/petunia-maroon-2026-10-09-1.jpg"
+            },
+            {
+              "date": "2026-10-10",
+              "changed": 4,
+              "control": 0,
+              "logged_on": "2026-10-10",
+              "changed2": 2,
+              "control2": 0,
+              "note": "2 buds opened. Photo taken in bright sun, so the red looks brighter.",
+              "photo": "photos/petunia-maroon-2026-10-10-2.jpg"
+            }
+          ],
+          "has_control": false,
+          "observe_only": true,
+          "surprise": "The two new flowers opened darker and more velvety than the older ones. I read that a new petal is still small and tightly folded, so its colour is packed close together. As the flower opens fully and stretches out, the same colour spreads over a bigger petal and looks lighter."
+        }
+      ]
+    },
+    "Marigold": {
+      "observations": [
+        {
+          "date": "2026-10-05",
+          "kind": "observation",
+          "text": "About 3 open flowers and 3 buds. Grown from a cutting of a plant that came up by itself from last year's seeds. It stayed in a shady but bright spot to keep it out of the heavy rain, and I moved it to full open sky on 30 Sep.",
+          "structured": {
+            "noticed": [
+              "About 3 open flowers and 3 buds. Grown from a cutting of a plant that came up by itself from last year's seeds. It stayed in a shady but bright spot to keep it out of the heavy rain, and I moved it to full open sky on 30 Sep."
+            ],
+            "conditions": [],
+            "comparison": "",
+            "parsed_by": "fallback",
+            "fallback_reason": "Gemma's reading dropped a number from your note",
+            "fallback_code": "dropped_number",
+            "uncaptured": [],
+            "removed_unsupported": [],
+            "plant": "Marigold",
+            "cause": "unknown"
+          },
+          "logged_on": "2026-10-10"
+        },
+        {
+          "date": "2026-10-10",
+          "kind": "follow-up",
+          "text": "A few petals look a little flattened. It was mostly sunny since 5 Oct with some rain, so the rain may be the reason.",
+          "question": "Is the plant’s stem straight?",
+          "question_source": "gemma",
+          "logged_on": "2026-10-10"
+        }
+      ],
+      "pending": null,
+      "ready_for_trial": true,
+      "trials": [
+        {
+          "question": "How does this plant change on its own over a few days?",
+          "hypothesis": "No change made",
+          "change": "Nothing (observe only)",
+          "keep_same": "everything",
+          "comparison": "none",
+          "measure": "open flowers",
+          "measure2": "buds",
+          "duration_days": 3,
+          "start": "2026-10-10",
+          "status": "done",
+          "records": [
+            {
+              "date": "2026-10-05",
+              "changed": 3,
+              "control": 0,
+              "logged_on": "2026-10-10",
+              "changed2": 3,
+              "control2": 0,
+              "note": "Photo from the side, taken for myself before I started the trial. The bud at the left edge is partly cut off.",
+              "photo": "photos/marigold-2026-10-05-1.jpg"
+            },
+            {
+              "date": "2026-10-09",
+              "changed": 7,
+              "control": 0,
+              "logged_on": "2026-10-10",
+              "changed2": 5,
+              "control2": 0,
+              "note": "Photo from above, taken from the angle where every flower and bud can be seen. Nothing is hidden.",
+              "photo": "photos/marigold-2026-10-09-1.jpg"
+            }
+          ],
+          "has_control": false,
+          "observe_only": true,
+          "surprise": "The open flowers went from 3 to 7 in four days, but my first count was from the side, so some buds may have been hidden."
+        }
+      ]
+    },
+    "Bougainvillea": {
+      "observations": [
+        {
+          "date": "2026-10-10",
+          "kind": "observation",
+          "text": "5 cuttings, 1.5 months old, in the same soil and small black nursery bags on the same bench. 1 cutting has 2 pink flowers (bracts), the other 4 have none. They are different varieties.",
+          "structured": {
+            "noticed": [
+              "5 cuttings, 1.5 months old, in the same soil and small black nursery bags on the same bench. 1 cutting has 2 pink flowers (bracts), the other 4 have none. They are different varieties."
+            ],
+            "conditions": [],
+            "comparison": "",
+            "parsed_by": "fallback",
+            "fallback_reason": "Gemma's reading dropped a number from your note",
+            "fallback_code": "dropped_number",
+            "uncaptured": [],
+            "removed_unsupported": [],
+            "plant": "Bougainvillea",
+            "cause": "unknown"
+          },
+          "logged_on": "2026-10-10"
+        },
+        {
+          "date": "2026-10-10",
+          "kind": "follow-up",
+          "text": "Mother plant of the blooming cutting is in full bloom. My other bougainvilleas are only just starting to bloom. The cuttings are different varieties. My guess, not tested, is variety or the time of year.",
+          "question": "Is the plant displaying any signs of stress?",
+          "question_source": "gemma",
+          "logged_on": "2026-10-10"
+        }
+      ],
+      "pending": null,
+      "ready_for_trial": true,
+      "trials": []
+    }
+  },
+  "guard_events": [
+    {
+      "date": "2026-10-10",
+      "kind": "dropped_number",
+      "plant": "Petunia (maroon)"
+    },
+    {
+      "date": "2026-10-10",
+      "kind": "offtopic_question_blocked",
+      "plant": "Petunia (maroon)"
+    },
+    {
+      "date": "2026-10-10",
+      "kind": "dropped_number",
+      "plant": "Marigold"
+    },
+    {
+      "date": "2026-10-10",
+      "kind": "dropped_number",
+      "plant": "Bougainvillea"
+    }
+  ]
+}
